@@ -1,7 +1,7 @@
-from modules.lighting.street_light import StreetLight
-from modules.transport.traffic_light import TrafficLight
-from modules.security.single_camera import SingleCamera
-from modules.energy.energy_sensor import EnergySensor
+from Umarxon_Muxsinov.modules.lighting.street_light import StreetLight
+from Umarxon_Muxsinov.modules.transport.traffic_light import TrafficLight
+from Umarxon_Muxsinov.modules.security.single_camera import SingleCamera
+
 
 class DeviceFactory:
     def __init__(self):

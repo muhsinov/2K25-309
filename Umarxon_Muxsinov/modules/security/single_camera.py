@@ -1,4 +1,4 @@
-from modules.security.camera import CameraComponent
+from Umarxon_Muxsinov.modules.security.camera import CameraComponent
 
 class SingleCamera(CameraComponent):
     def __init__(self, id: str):

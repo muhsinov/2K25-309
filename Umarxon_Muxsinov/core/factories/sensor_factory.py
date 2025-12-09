@@ -1,5 +1,5 @@
-from modules.energy.sensor import EnergySensorFlyweight
-from modules.energy.energy_sensor import EnergySensor
+from Umarxon_Muxsinov.modules.energy.sensor import EnergySensorFlyweight
+from Umarxon_Muxsinov.modules.energy.energy_sensor import EnergySensor
 
 class SensorFactory:
     _flyweights = {}
